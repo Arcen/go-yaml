@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/goccy/go-yaml/internal/errors"
-	"github.com/goccy/go-yaml/token"
+	"github.com/Arcen/go-yaml/internal/errors"
+	"github.com/Arcen/go-yaml/token"
 )
 
 type TokenGroupType int
