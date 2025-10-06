@@ -3,7 +3,7 @@ package token_test
 import (
 	"testing"
 
-	"github.com/goccy/go-yaml/token"
+	"github.com/Arcen/go-yaml/token"
 )
 
 func TestToken(t *testing.T) {
@@ -83,6 +83,7 @@ func TestIsNeedQuoted(t *testing.T) {
 		"1.234",
 		"0b11111111111111111111111111111111111111111111111111111111111111111",
 		"0o7777777777777777777777777777777777777777",
+		"07",
 		"999999999999999999999999999999999999999999",
 		"0xffffffffffffffffffffffffffffffffffffffff",
 		"1:1",
